@@ -1,0 +1,68 @@
+.NavBar{
+    margin-left: 0;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: $color-header;
+    font-weight:bold;
+    height: auto;
+    width: 100%;
+    background-color: #ccff02;
+    &__Logo{
+        margin: 10px;
+        height: 10rem;
+    }
+    
+    &__Enlace{
+        text-decoration: none;
+        color: #ff914d;
+        display:block;
+        padding: 1rem;
+        text-decoration: none;
+        align-content: stretch;
+        
+        &:hover{
+            text-decoration: none;
+            color: #f56811;
+            text-shadow: 2px 2px 2px rgb(73, 73, 73);
+            background: #b3ff00;
+            border-radius: 0.6rem;
+        }
+    }
+}
+header {
+    background-color: #ccff02;
+}
+@media only screen and (max-width: 500px) {
+    .NavBar {
+        width: 100%;
+        font-size: 2px;
+        align-content: stretch;
+        display:block;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .NavBar {
+        width: 100%;
+        font-size: 2px;
+        align-content: stretch;
+        display:block;
+    }
+    .NavBar__Enlace{
+        text-decoration: none;
+        color: #ff914d;
+        display:block;
+        padding: 4px;
+        align-content: flex-start;
+
+    }
+}
+@media only screen and (max-width: 999px) {
+    .NavBar {
+        width: 100%;
+        font-size: 1rem;
+        width: 450px;
+        align-content: stretch;
+        display:block;
+    }
+}

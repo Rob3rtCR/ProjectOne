@@ -1,0 +1,446 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.form-label {
+    font-size: 1.5rem;
+}
+
+.form-textarea {
+    font-size: 1rem;
+}
+
+.btn-submit {
+    font-size: 1.5rem;
+    font-style: normal;
+    background-color: rgb(245, 159, 202);
+}
+
+btn-reset {
+    font-size: 1rem;
+    border: 1px;
+}
+
+/* Menu de paginas */
+.menu { 
+    position: 3%;
+    font-family:serif;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nosotras__Descripcion {
+    padding: 9rem;
+    background: rgb(0,255,34);
+    background: linear-gradient(90deg, rgba(0,255,34,1) 0%, rgba(11,242,154,1) 47%, rgba(0,255,244,1) 100%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(32, 32, 32);
+    font-family: 'Dawning of a New Day';
+    font-size: 60px;
+    word-spacing: 1px;
+    line-height: 90px;
+    font-weight: lighter;
+    font-style: initial;
+}
+
+header {
+    padding-top: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+}
+
+.NavBar{
+    justify-content: flex-start;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(196, 241, 14);
+    font-weight:bold;
+    height: auto;
+    width: 100%;
+}
+
+.NavBar__Enlace{
+    display:block;
+    padding: 1rem;
+    text-decoration: none;
+    align-content: stretch;
+}
+
+.NavBar__Enlace:hover{
+    background: rgb(189, 255, 114);
+    border-radius: 0.6rem;
+}
+
+.SectionNav{
+    background-color: #ccff02;
+}
+
+.Nosotras__Foto {
+    background-color: lightsalmon;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 4px;
+}
+
+.tabla {
+    margin-bottom: 2rem;
+}
+
+.Productos {
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+.Lateral {
+    background-color: rgb(207, 255, 253);
+}
+
+.Shampoo {
+    background-color: rgba(166, 255, 148, 0.752);
+}
+
+.Acond {
+    background-color: rgba(177, 163, 254, 0.455);
+}
+
+.Desmaq {
+    background-color: rgba(232, 232, 0, 0.612);
+}
+
+.Desod {
+    background-color: rgb(255, 175, 236);
+}
+
+.SobreNP {
+    background-color: rgb(208, 208, 208);
+}
+
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.Contacto__Redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.a {
+    font-family: 'Poppins';
+    color: black;
+    margin: 1.5rem;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    border: 1px solid;
+    border-radius: 0.6rem;
+}
+
+.icono {
+    height: 2px;
+}
+
+.NavBar__Logo{
+    margin: 10px;
+    height: 15rem;
+}
+
+.DescripcionPag__Video iframe{
+    margin: 4em;
+    padding: 4px;
+    background-color: rgb(0, 0, 0);
+    width: 62rem;
+    height: 35rem;
+}
+
+.Nosotras__Texto {
+    margin-top: 1rem;
+    font-size: 60px;
+    font-family: cursive;
+    color: lightcoral;
+}
+
+.btn-reset {
+    font-style: italic;
+    background-color: lightyellow;
+}
+
+body {
+    padding-bottom: 2rem;
+}
+
+.GrillaProd{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows:  auto auto auto auto auto;
+    width: 90%;
+    margin:0 auto;
+    background-color: rgb(85, 85, 85);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.GrillaProd__c1{
+    border: 1px solid rgb(39, 39, 39);
+    font-size: 30px;
+    font-style: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+    text-align: center;
+    line-height: 110px;
+    background-color: #ccff02;
+}
+
+.GrillaProd__c2{
+    border: 1px solid rgb(39, 39, 39);
+    font-size: 15px;
+    font-style: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+    text-align: center;
+    line-height: 110px;
+    background-color: #ccff02;
+}
+.GrillaProd__c3{
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    font-style: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 110px;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+    background-color: #ccff02;
+}
+.GrillaProd__c4{
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    font-style: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 110px;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+    background-color: #ccff02;
+}
+.GrillaProd__c5{
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    font-style: bold;
+    text-align: center;
+    line-height: 110px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 110px;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+    background-color: #ccff02;
+}
+.GrillaProd__c6{
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-style: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 110px;
+    background-color: #ff914d;
+    text-shadow: 2px 2px 2px rgb(248, 248, 248);
+}
+.GrillaProd__c7{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: initial;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #ff914d;
+}
+.GrillaProd__c8{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ff914d;
+    text-align: center;
+}
+.GrillaProd__c9{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ff914d;
+    text-align: center;
+}
+.GrillaProd__c10{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ff914d;
+    text-align: center;
+}
+.GrillaProd__c11{
+    border: 2px solid rgb(79, 79, 79);
+    font-size: 30px;
+    font-style: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 110px;
+    background-color: black;
+    text-shadow: 2px 2px 2px rgb(146, 146, 146);    
+}
+.GrillaProd__c12{
+    border: 2px solid rgb(79, 79, 79);
+    text-align: center;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    font-size: 15px;
+    background-color: black;    
+}
+.GrillaProd__c13{
+    border: 2px solid rgb(79, 79, 79);
+    background-color: black;
+    text-align: center;    
+}
+.GrillaProd__c14{
+    border: 2px solid rgb(79, 79, 79);
+    background-color: black;
+    text-align: center;    
+}
+.GrillaProd__c15{
+    border: 2px solid rgb(79, 79, 79);
+    background-color: black;
+    text-align: center;
+}
+.GrillaProd__c16{
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-style: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 110px;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+    background-color: #ccff02;
+}
+.GrillaProd__c17{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    font-size: 15px;
+    background-color: #ccff02;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+}
+.GrillaProd__c18{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ccff02;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+    text-align: center;
+}
+.GrillaProd__c19{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ccff02;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+    text-align: center;
+}
+.GrillaProd__c20{
+    border: 1px solid rgb(0, 0, 0);
+        background-color: #ccff02;
+        text-shadow: 2px 2px 2px rgb(39, 39, 39);
+        text-align: center;
+}
+
+.DescripcionPag {    
+    padding: 9rem;
+    background: rgb(0,255,34);
+    background: linear-gradient(90deg, rgba(0,255,34,1) 0%, rgba(11,242,154,1) 47%, rgba(0,255,244,1) 100%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(32, 32, 32);
+    font-family: 'Dawning of a New Day';
+    font-size: 60px;
+    word-spacing: 1px;
+    line-height: 90px;
+    font-weight: lighter;
+    font-style: initial;
+}
+
+.DescripcionPag__Texto {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.ProductosImg{
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(160, 160, 160);
+    text-shadow: 2px 2px 2px rgb(208, 207, 207);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.ProductosImg__Text{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.ProductosImg__Card{
+    height: 3rem;
+}
+
+.CardContainer{
+    display: flex;
+    justify-content: stretch;
+}
+
+.CardContainer__Card {
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(160, 160, 160);
+    text-shadow: 2px 2px 2px rgb(208, 207, 207);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+
+.Footer__Texto {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Footer {    
+    background-color: rgb(184, 255, 113);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.CardContainer__Text{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .DivNav {
+        font-size: 10px;
+        background-color: #ccff02d9;
+        width: 450px;
+        align-content: stretch;
+        display: block;
+    }
+}  

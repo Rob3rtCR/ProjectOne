@@ -1,0 +1,12 @@
+.ContenedorE {
+    height: 100%;
+    background-color: aquamarine;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+
+    &__Error {
+        font-size: 30rem;
+        text-align: center;
+    }
+}

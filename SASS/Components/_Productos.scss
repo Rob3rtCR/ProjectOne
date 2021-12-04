@@ -1,0 +1,4 @@
+/*Vamos a aplicar a modo de ejemplo mixins creados en extend.scss en este scss*/
+.galeria{
+    @include flexbox(column, space-between, nowrap)/*Es importante respetar el orden dentro de los parentesis para aplicar cada atributo*/
+}

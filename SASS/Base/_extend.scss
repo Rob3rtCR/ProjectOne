@@ -1,0 +1,27 @@
+/*Con exted aplicamos estilos determinados directamente llamandolos*/
+%FlexboxRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+%botones{
+    border:solid 1px black;
+    border-radius: 4px;
+    width: fit-content;
+    background-color: $color-texto;
+}
+/*Mixins*/
+/*Con los mixins podemos cambiar directamente el atributo de un estilo*/
+@mixin cuadrado ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+@mixin flexbox ($direction, $justify, $wrap) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: center;
+}
