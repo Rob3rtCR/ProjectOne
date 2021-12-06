@@ -1,0 +1,57 @@
+.Contacto {
+    display: flex;
+    flex-direction: column;
+    &__img {
+        margin-top: 4rem;
+        height: 6rem;
+        width: 6rem;
+    }
+    &__qr {
+        height: 10rem;
+        width: 10rem;
+    }
+    &__Redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+}
+.TxtRedes {
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.CnttTxt {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.icono {
+    height: 2px;
+}
+@media only screen and (max-width: 450px) {
+    .TxtRedes {
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+    .CnttTxt {
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+    .Contacto {
+        display: flex;
+        flex-direction: column;
+        &__img {
+            margin-top: 4rem;
+            height: 3rem;
+            width: 3rem;
+        }
+        &__qr {
+            height: 8rem;
+            width: 8rem;
+        }
+        &__Redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+    }
+}

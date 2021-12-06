@@ -11,10 +11,18 @@
 }
 
 .ContenedorGM {
-    margin-top: 5rem;
     margin-left: 40%;
+    margin-top: 2rem;
     width: 500px;
     height: 300px;
+    justify-content: center;   
+    align-items: center;
+    &__TxtGM{
+        font-weight: bold; 
+        font-style: italic;
+        font-size: 1.5rem;
+        text-align: center;
+    }
     &__item {
         background: mistyrose;
         border: 3px solid tomato;
@@ -30,9 +38,52 @@
         border: 4px solid rgb(187, 255, 1);
         border-radius: 8px;
         margin-top: 2rem;
+        margin-right: 3px;
         background-color: lightgreen;
         text-shadow: 3px 3px 3px rgb(247, 113, 191);
         text-align: center;
         font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .ContenedorGM {
+    margin-left: 32%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .ContenedorGM {
+    margin-left: 29%;
+        &__p {
+        font-size: 3rem;
+        }
+    }
+}
+@media only screen and (max-width: 700px) {
+    .ContenedorGM {
+    margin-left: 26%;
+        &__p {
+            font-size: 2rem;
+        }
+        &__TxtGM{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ContenedorGM {
+    margin-left: 22%;
+        &__p {
+            font-size: 2rem;
+        }
+        &__item {
+            text-align: center;
+        }
+        &__TxtGM{
+            font-weight: bold; 
+            font-style: italic;
+            font-size: 1rem;
+            text-align: center;
+        }
     }
 }

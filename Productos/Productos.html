@@ -17,23 +17,43 @@
 </head>
 <body>
     <header>
-        <div class="NavBar">
-        <img  class="NavBar__Logo" src="../Imagenes/CheliEcoRedondoChico.png" alt="LogoCheli">
-            <nav>
-                    <a class="NavBar__Enlace" href="../index.html">Bienvenidos</a>
-                    <a class="NavBar__Enlace" href="../Nosotras/Nosotras.html">Nosotras</a>
-                    <a class="NavBar__Enlace" href="../Productos/Productos.html">Productos</a>
-                    <a class="NavBar__Enlace" href="../Gestion Menstrual/Gestion Menstrual.html">Gestion Menstrual</a>
-                    <a class="NavBar__Enlace" href="../Contacto/Contacto.html"> Contacto</a>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img  class="NavBar__Logo" src="../Imagenes/CheliEcoRedondoChico.png" alt="LogoCheli">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Bienvenidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Nosotras/Nosotras.html">Nosotras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Productos/Productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Gestion Menstrual/Gestion Menstrual.html">Gestion Menstrual</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Contacto/Contacto.html"> Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <h1>
         <p class="titulo">Nuestros Productos</p>
     </h1>
     <h2>
         <section class="CardContainer">
-            <div class="CardContainer__Card" style="width: 18rem;">
+            <div class="CardContainer__Card" style="width: 25rem;">
                 <img src="../Imagenes/ShampSolid.jpeg" class="card-img-top" alt="FotoShampoo">
                 <div class="CardContainer__Text">
                     <p class="CardContainer__cardtext">Shampoo Solido</p>
@@ -41,7 +61,7 @@
                         *Libres de sulfatos y parabenos.Variedades: Manzanilla - Lavanda - Coco - Espirulina - Romero - Rosas - Avena - Carbón (detox).</p>
                 </div>
             </div>
-            <div class="CardContainer__Card" style="width: 18rem;">
+            <div class="CardContainer__Card" style="width: 25rem;">
                 <img src="../Imagenes/JabGlic.jpeg" class="card-img-top" alt="FotoJabon">
                 <div class="CardContainer__Text">
                     <p>Jabones de Glicerina</p>
@@ -50,7 +70,7 @@
                     Variedades: Caléndula - Rosa mosqueta - Café - Coco y miel.</p>
                 </div>
             </div>
-            <div class="CardContainer__Card" style="width: 18rem;">
+            <div class="CardContainer__Card" style="width: 25rem;">
                 <img src="../Imagenes/AcondSolid.jpeg" class="card-img-top" alt="FotoAcondicionador">
                 <div class="CardContainer__Text">
                     <p class="CardContainer__cardtext">Acondicionador Solido</p>
@@ -62,14 +82,14 @@
             </div>
         </section>
         <section class="CardContainer">
-            <div class="CardContainer__Card" style="width: 18rem;">
+            <div class="CardContainer__Card" style="width: 25rem;">
                 <img src="../Imagenes/DesmaqBifas.jpeg" class="card-img-top" alt="FotoDesmaquillante">
                 <div class="CardContainer__Text">
                     <p class="CardContainer__cardtext">Desmaquillante Bifasico</p>
                     <p class="CardContainer__CardTxt">Lipiador facial de rapida abosrcion. Mejore la elasticidad y recuperacion de la piel.Regulador cebaceo, cicatrizante, humectante y antibacterial. Ideal para pieles con acne y/o rosacea. Ingredientes: Agua de rosas, aceite de jojobna, vitamina E, consewrvante cosgard. *Trae disco desmaquillante reutulizable de algodon.</p>
                 </div>
             </div>
-            <div class="CardContainer__Card" style="width: 18rem;">
+            <div class="CardContainer__Card" style="width: 25rem;">
                 <img src="../Imagenes/AcondSolid.jpeg" class="card-img-top" alt="FotoAcondicionador">
                 <div class="CardContainer__Text">
                     <p class="CardContainer__cardtext">Desodorante en Crema</p>
@@ -83,6 +103,8 @@
             <p class="Footer__Texto">Esta pagina web esta siendo diseñada como proyeco y para los desafios de la carrera desarrollador web de Coderhouse</p>
         </div>
     </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,4 +1,116 @@
-/*Vamos a aplicar a modo de ejemplo mixins creados en extend.scss en este scss*/
+.ProductosImg{
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(160, 160, 160);
+    text-shadow: 2px 2px 2px rgb(208, 207, 207);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    height: auto;
+    
+    &__Text{
+            font-size: 1.5rem;
+            text-align: center;
+            height: auto;
+    }
+    
+    &__Card{
+        height: auto;
+    }
+}
+.titulo{
+    font-size: 60px;
+    text-align: center;
+    font-style: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+}
+.CardContainer{
+    display: flex;
+    justify-content:stretch;
+    
+    &__Card {
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(160, 160, 160);
+        text-shadow: 2px 2px 2px rgb(208, 207, 207);
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: 8px;
+    }
+    &__Text{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    &__CardTxt{text-align: center;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .CardContainer{
+        display: flex;
+        flex-direction: column;
+        
+        &__card {
+            width: 12rem;
+        }
+        &__CardTxt {
+            font-size: 15px;
+        }
+    }
+    .titulo {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .gallery-container {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 150px;
+        padding: 2px;
+    }
+    .gallery__title {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+        margin: 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .gallery__item:nth-child(1) {
+        grid-row-start: span 3;
+        grid-column-start: span 4;
+    }
+    .gallery__item:nth-child(2) {
+        grid-row-start: span 2;
+        grid-column-start: span 4;
+    }
+    .gallery__item:nth-child(3) {
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+    }
+    .gallery__item:nth-child(4) {
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+    }
+    .gallery__item:nth-child(5) {
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+    }
+    .gallery__item:nth-child(6) {
+        grid-row-start: span 2;
+        grid-column-start: span 4;
+    }
+}
 .galeria{
     @include flexbox(column, space-between, nowrap)/*Es importante respetar el orden dentro de los parentesis para aplicar cada atributo*/
 }
