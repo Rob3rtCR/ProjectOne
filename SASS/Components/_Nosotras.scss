@@ -50,5 +50,11 @@
         &__Texto{
             font-size: 1rem;
         }
+        &__Img {
+            justify-content: center;
+            margin-left: 55%;
+            width: 90%;
+            border-radius: 6px;
+        }
     }
 }
